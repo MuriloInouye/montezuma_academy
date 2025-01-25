@@ -1,6 +1,6 @@
 import React from "react"
 import { Container } from "./style"
-import { Logo } from "../logo"
+import { Logo } from "../Logo"
 
 export const Header = () => {
     return (
