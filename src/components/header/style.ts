@@ -1,7 +1,12 @@
 import styled, {css} from "styled-components"
 
+export const ContainerColor = styled.div`
+    width: 100%;
+    background-color: var(--color-yellow-main);
+`
+
 export const Container = styled.header `
-    width: 1100px;
+    width: 1300px;
     height: 80px;
     max-width: 100%;
     padding: 0 20px;
@@ -10,6 +15,7 @@ export const Container = styled.header `
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 
     nav {
         display: flex;
