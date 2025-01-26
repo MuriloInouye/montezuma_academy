@@ -4,6 +4,7 @@ import { Container } from "../styles/main";
 import { Introductionsection } from "../components/IntroductionSection";
 import { EncountersInfos } from "../components/EncountersInfos";
 import { AboutMentor } from "../components/AboutMentor";
+import { SellingSection } from "../components/SellingSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Introductionsection/>
       <EncountersInfos/>
       <AboutMentor/>
+      <SellingSection/>
     </Container>
   );
 }

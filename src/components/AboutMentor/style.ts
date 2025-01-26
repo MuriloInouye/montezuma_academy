@@ -31,7 +31,7 @@ export const Container = styled.div`
             font-family: var(--font-family-montserrat);
             font-size: 1.25rem;
             font-weight: 400;
-            color: var(--color-yellow-main);
+            color: var(--color-black);
         }
         
         img {

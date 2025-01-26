@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     border: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--font-family-noto-sans);
+    font-family: var(--font-family-montserrat);
   }
 
   :root {
@@ -31,6 +31,8 @@ export const GlobalStyle = createGlobalStyle`
     --color-green-1: #2CCD65;
 
     --color-grey-main: #222222;
+    --color-grey-dark: #141414;
+    --color-grey-light: #B3B3B3;
     --color-gray-1: #A8A3A3;
     --color-gray-2: #5C5C5C;
     --color-gray-3: #212529;
