@@ -160,6 +160,7 @@ export const Container = styled.div`
         }
 
         .mentorText {
+            text-align: center;
             width: 381px;
             max-width: 70%;
             font-size: 1rem;

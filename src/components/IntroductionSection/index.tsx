@@ -40,7 +40,7 @@ export const Introductionsection = () => {
                         </li>
                     </ul>
                 </div>
-                <a href="">Saiba mais</a>
+                <a href="#SellingSection">Saiba mais</a>
             </Container>
         </ContainerColor>
     )

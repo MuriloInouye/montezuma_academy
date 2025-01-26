@@ -11,7 +11,7 @@ export const Header = () => {
                     <a href="#EncountersInfos" className="anchors">Encontros</a>
                     <a href="#AboutMentor" className="anchors">Sobre o mentor</a>
                     <a href="#SellingSection" className="anchors">Promoção</a>
-                    <a href="www.google.com" id="stripeRedirect">Fazer Parte</a>
+                    <a href="www.google.com" id="stripeRedirect">Quero Fazer Parte</a>
                 </nav>
             </Container>
         </ContainerColor>

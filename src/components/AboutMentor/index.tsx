@@ -12,9 +12,9 @@ export const AboutMentor = () => {
                 <div className="presentantionDiv">
                     <h2 className="name">Rodrigo Montezuma</h2>
                     <h3>CEO Controladoria Digital</h3>
-                    <a href="">
+                    {/* <a href="">
                         <Image src={LogoControladoria} alt="Logo Controladoria Digital"/>
-                    </a>
+                    </a> */}
                 </div>
                 <Image src={MentorImg} alt="Imagem do Mentor"/>
                 <p className="mentorText">
