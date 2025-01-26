@@ -47,6 +47,7 @@ export const GlobalStyle = createGlobalStyle`
 
     --font-family-roboto: "Roboto", sans-serif;
     --font-family-noto-sans: "Noto Sans", serif;
+    --font-family-montserrat: "Montserrat", serif;
   }
 
   body {
