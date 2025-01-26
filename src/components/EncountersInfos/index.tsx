@@ -2,11 +2,11 @@ import React from "react"
 import { Container, ContainerColor, MainContentContainer } from "./style"
 
 import { BsCalendar4Event } from "react-icons/bs"
-import { FiClock } from "react-icons/fi";
-import { BsMicrosoftTeams } from "react-icons/bs";
-import Logo from "../Logo";
-import { FaArrowDown, FaArrowRight } from "react-icons/fa";
-import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
+import { FiClock } from "react-icons/fi"
+import { BsMicrosoftTeams } from "react-icons/bs"
+import { FaArrowDown, FaArrowRight } from "react-icons/fa"
+import { IoIosMail, IoLogoWhatsapp } from "react-icons/io"
+import Logo from "../../components/Logo"
 
 
 export const EncountersInfos = () => {
