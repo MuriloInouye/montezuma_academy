@@ -6,7 +6,7 @@ import { FiClock } from "react-icons/fi"
 import { BsMicrosoftTeams } from "react-icons/bs"
 import { FaArrowDown, FaArrowRight } from "react-icons/fa"
 import { IoIosMail, IoLogoWhatsapp } from "react-icons/io"
-import Logo from "../../components/Logo"
+import Logo from "../Logo"
 
 
 export const EncountersInfos = () => {
