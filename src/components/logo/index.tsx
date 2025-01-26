@@ -7,10 +7,12 @@ interface ILogo {
     color: "1" | "2" | "3"
 }
 
-export const Logo = ({color}: ILogo) => {
+const Logo = ({color}: ILogo) => {
     return (
         <Container color={color}>
             <h2>MONTEZUMA <br/>ACADEMY</h2>    
         </Container>
     )
 }
+
+export default Logo
