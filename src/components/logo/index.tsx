@@ -4,13 +4,12 @@ import { Container } from "./style"
 
 
 interface ILogo {
-    width?: string
-    height?: string
+    color: "1" | "2" | "3"
 }
 
-export const Logo = ({width, height}: ILogo) => {
+export const Logo = ({color}: ILogo) => {
     return (
-        <Container color="1">
+        <Container color={color}>
             <h2>MONTEZUMA <br/>ACADEMY</h2>    
         </Container>
     )

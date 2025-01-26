@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <ContainerColor>
             <Container>
-                <Logo/>
+                <Logo color="1"/>
                 <nav>
                     <a href="" className="anchors">TÓPICO</a>
                     <a href="" className="anchors">TÓPICO</a>
