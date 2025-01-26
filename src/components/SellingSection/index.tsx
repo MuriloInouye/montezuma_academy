@@ -4,7 +4,7 @@ import { Container, ContainerColor, MainContentDiv } from "./style"
 import { BsCalendar4Event } from "react-icons/bs"
 import { FiClock } from "react-icons/fi"
 import { BsMicrosoftTeams } from "react-icons/bs"
-import Logo from "../Logo"
+import Logo from "../logo"
 import { IoCheckmarkOutline } from "react-icons/io5"
 
 
