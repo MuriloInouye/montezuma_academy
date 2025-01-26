@@ -107,6 +107,7 @@ export const MainContentContainer = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 10px;
 
         background-color: var(--color-yellow-main);
 
@@ -127,6 +128,270 @@ export const MainContentContainer = styled.div`
 
                 #mail {
                     font-size: 35px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .leftDiv {
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .contactDiv {
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    @media (max-width: 920px) {
+        .leftDiv {
+            p {
+                font-size: 0.85rem;
+            }
+        }
+
+        .rightDiv {
+            ul {
+                li {
+                    .left {
+                        .title {
+                            font-size: 0.85rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contactDiv {
+            p {
+                font-size: 0.85rem;
+            }
+        }
+    }
+
+    @media (max-width: 780px) {
+        .leftDiv {
+            p {
+                font-size: 0.75rem;
+            }
+        }
+
+        .rightDiv {
+            ul {
+                li {
+                    .left {
+                        .title {
+                            font-size: 0.75rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contactDiv {
+            padding: 15px 10px;
+            p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+    
+    @media (max-width: 750px) {
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 70px;
+
+        .leftDiv {
+            align-items: center;
+            text-align: center;
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        .rightDiv {
+            width: 100%;
+            ul {
+                li {
+                    .left {
+                        .title {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contactDiv {
+            bottom: -50px;
+            padding: 15px 10px;
+            width: 60%;
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    @media (max-width: 735px) {
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 70px;
+
+        .leftDiv {
+            align-items: center;
+            text-align: center;
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .rightDiv {
+            width: 100%;
+            ul {
+                li {
+                    .left {
+                        .title {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contactDiv {
+            bottom: -50px;
+            padding: 15px 10px;
+            width: 60%;
+            p {
+                font-size: 0.85rem;
+            }
+        }
+    }
+    @media (max-width: 530px) {
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 70px;
+
+        .leftDiv {
+            align-items: center;
+            text-align: center;
+            p {
+                font-size: 0.85rem;
+            }
+        }
+
+        .rightDiv {
+            width: 100%;
+            ul {
+                li {
+                    .left {
+                        .numerated {
+                            font-size: 0.85rem;
+                        }
+                        .title {
+                            font-size: 0.85rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contactDiv {
+            bottom: -50px;
+            padding: 15px 10px;
+            width: 70%;
+            p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+    @media (max-width: 430px) {
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 70px;
+
+        .leftDiv {
+            align-items: center;
+            text-align: center;
+            p {
+                font-size: 0.75rem;
+            }
+        }
+
+        .rightDiv {
+            width: 100%;
+            ul {
+                li {
+                    .left {
+                        .numerated {
+                            font-size: 0.75rem;
+                        }
+                        .title {
+                            font-size: 0.75rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contactDiv {
+            bottom: -50px;
+            padding: 15px 10px;
+            width: 80%;
+            p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+    @media (max-width: 385px) {
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 70px;
+
+        .leftDiv {
+            align-items: center;
+            text-align: center;
+            p {
+                font-size: 0.65rem;
+            }
+        }
+
+        .rightDiv {
+            width: 100%;
+            ul {
+                li {
+                    .left {
+                        .numerated {
+                            font-size: 0.65rem;
+                        }
+                        .title {
+                            font-size: 0.65rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contactDiv {
+            bottom: -50px;
+            padding: 15px 10px;
+            width: 80%;
+            p {
+                font-size: 0.65rem;
+            }
+            .icons {
+                a {
+                    svg {
+                        font-size: 20px;
+    
+                    }
+                    #mail {
+                        font-size: 25px;
+                    }
                 }
             }
         }

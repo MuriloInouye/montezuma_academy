@@ -11,7 +11,7 @@ import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 export const EncountersInfos = () => {
     return (
-        <ContainerColor>
+        <ContainerColor id="EncountersInfos">
             <Container>
                 <h1>6 Encontros</h1>
                 <MainContentContainer>
@@ -27,7 +27,7 @@ export const EncountersInfos = () => {
                                     <p className="title">Parametrização do ERP Omie</p>
                                 </div>
                                 <button>
-                                    <FaArrowRight />
+                                    {/* <FaArrowRight /> */}
                                     {/* <FaArrowDown /> */}
                                 </button>
                             </li>
@@ -37,7 +37,7 @@ export const EncountersInfos = () => {
                                     <p className="title">Utilização do ERP</p>
                                 </div>
                                 <button>
-                                    <FaArrowRight />
+                                    {/* <FaArrowRight /> */}
                                     {/* <FaArrowDown /> */}
                                 </button>
                             </li>
@@ -47,7 +47,7 @@ export const EncountersInfos = () => {
                                     <p className="title">Preparar e Analisar a DFC</p>
                                 </div>
                                 <button>
-                                    <FaArrowRight />
+                                    {/* <FaArrowRight /> */}
                                     {/* <FaArrowDown /> */}
                                 </button>
                             </li>
@@ -57,7 +57,7 @@ export const EncountersInfos = () => {
                                     <p className="title">Preparar e Analisar a DRE</p>
                                 </div>
                                 <button>
-                                    <FaArrowRight />
+                                    {/* <FaArrowRight /> */}
                                     {/* <FaArrowDown /> */}
                                 </button>
                             </li>
@@ -67,7 +67,7 @@ export const EncountersInfos = () => {
                                     <p className="title">Planejamento Financeiro</p>
                                 </div>
                                 <button>
-                                    <FaArrowRight />
+                                    {/* <FaArrowRight /> */}
                                     {/* <FaArrowDown /> */}
                                 </button>
                             </li>
@@ -77,14 +77,14 @@ export const EncountersInfos = () => {
                                     <p className="title">Apresentar Resultados</p>
                                 </div>
                                 <button>
-                                    <FaArrowRight />
+                                    {/* <FaArrowRight /> */}
                                     {/* <FaArrowDown /> */}
                                 </button>
                             </li>
                         </ul>
                     </div>
                     <div className="contactDiv">
-                        <p>Alguma dúvida ?<br />Entre em contato conosto</p>
+                        <p>Alguma dúvida ?<br />Entre em contato conosco</p>
                         <div className="icons">
                             <a href="">
                                 <IoLogoWhatsapp />

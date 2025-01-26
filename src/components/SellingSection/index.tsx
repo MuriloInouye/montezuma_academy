@@ -10,11 +10,11 @@ import { IoCheckmarkOutline } from "react-icons/io5";
 
 export const SellingSection = () => {
     return (
-        <ContainerColor>
+        <ContainerColor id="SellingSection">
             <Container>
                 <MainContentDiv>
                     <div className="leftDiv">
-                        <Logo color="1"/>
+                        <h2>MONTEZUMA <br />ACADEMY</h2>
                         <p>Próxima turma <br />06 de Dezembro</p>
                         <ul>
                             <li>

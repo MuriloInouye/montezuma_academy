@@ -12,11 +12,11 @@ export const Introductionsection = () => {
             <Container>
                 <h1>MENTORIA<br/>CONTROLADORIA NA PRÁTICA</h1>
                 <div className="line"/>
-                <p>Saiba como implantar uma Controladoria e transformar a gestão<br />financeira do seu negócio</p>
+                <p>Saiba como implantar uma Controladoria e transformar a gestão financeira do seu negócio</p>
                 <div className="info">
                     <ul>
                         <li>
-                            <BsCalendar4Event/>
+                            <BsCalendar4Event style={{ width: '25px', height: '25px' }}/>
                             <div className="liInfo">
                                 <h2>Próxima turma</h2>
                                 <p>03 a 06 de Dezembro</p>
@@ -24,15 +24,15 @@ export const Introductionsection = () => {
                         </li>
                         <div className="infoLine"/>
                         <li id="middle">
-                            <FiClock />
+                            <FiClock style={{ width: '40px', height: '40px' }}/>
                             <div className="liInfo">
                                 <h2>Duração</h2>
-                                <p>6 Encontros semanais com <br />2 horas cada.</p>
+                                <p>6 Encontros semanais com 2 horas cada.</p>
                             </div>
                         </li>
                         <div className="infoLine"/>
                         <li>
-                            <BsMicrosoftTeams />
+                            <BsMicrosoftTeams style={{ width: '25px', height: '25px' }}/>
                             <div className="liInfo">
                                 <h2>Plataforma</h2>
                                 <p>Microsoft Teams Online</p>

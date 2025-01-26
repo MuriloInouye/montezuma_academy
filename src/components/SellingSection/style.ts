@@ -8,7 +8,7 @@ export const ContainerColor = styled.div`
 export const Container = styled.div`
     width: 1300px;
     max-width: 100%;
-    padding: 200px 0 200px;
+    padding: 200px 0 100px;
     margin: 0 auto;
 
     display: flex;
@@ -36,8 +36,14 @@ export const MainContentDiv = styled.div`
         flex-direction: column;
         gap: 20px;
 
+        h2 {
+            font-size: 2rem;
+            color: var(--color-white);
+            font-weight: 400;
+        }
+
         > p {
-            color: var(--color-grey-light);
+            color: var(--color-yellow-main);
         }
 
         ul {
@@ -115,6 +121,7 @@ export const MainContentDiv = styled.div`
                 padding: 13px 20px;
 
                 text-decoration: none;
+                text-align: center;
                 color: var(--color-black);
                 font-weight: 700;
                 font-size: 0.85rem;
@@ -123,5 +130,301 @@ export const MainContentDiv = styled.div`
                 border-radius: 30px;
             }
         }
+    }
+
+    @media (max-width: 1400px) {
+        width: 63%;
+    }
+
+    @media (max-width: 1200px) {
+        width: 67%;
+    }
+    
+    @media (max-width: 1100px) {
+        width: 70%;
+    }
+
+    @media (max-width: 1000px) {
+        width: 74%;
+    }
+    @media (max-width: 940px) {
+        width: 80%;
+    }
+
+    @media (max-width: 850px) {
+        width: 85%;
+    }
+    
+    @media (max-width: 760px) {
+        width: 90%;
+    }
+    
+    @media (max-width: 720px) {
+        width: 95%;
+    }
+
+    @media (max-width: 720px) {
+        .leftDiv {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            > p {
+
+            }
+
+            ul {
+                li {
+                    p {
+                        font-size: 0.85rem;
+                    }
+
+                    svg {
+
+                    }
+                }
+            }
+        }
+        
+        .rightDiv {
+            header {
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                h3 {
+                    font-size: 1.25rem;
+                }
+
+            }
+            .priceDiv {
+                p {
+
+                }
+
+                h2 {
+                    font-size: 2rem;
+
+                    span {
+                        font-size: 2.75rem;
+                    }
+                }
+            }
+            .bottomDiv {
+                p {
+    
+                }
+    
+                a {
+                    padding: 11px 18px;
+                    font-size: 0.75rem;
+                }
+            }
+        }
+
+    }
+    @media (max-width: 615px) {
+        width: 80%;
+        flex-direction: column;
+        gap: 40px;
+        .leftDiv {
+            text-align: center;
+            max-width: 95%;
+            h2 {
+                font-size: 2rem;
+            }
+
+            > p {
+                font-size: 1.15rem;
+            }
+
+            ul {
+                li {
+                    p {
+                        font-size: 1.15rem;
+                    }
+
+                    svg {
+
+                    }
+                }
+            }
+        }
+        
+        .rightDiv {
+            max-width: 80%;
+            header {
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                h3 {
+                    font-size: 1.25rem;
+                }
+
+            }
+            .priceDiv {
+                p {
+
+                }
+
+                h2 {
+                    font-size: 2rem;
+
+                    span {
+                        font-size: 2.75rem;
+                    }
+                }
+            }
+            .bottomDiv {
+                p {
+    
+                }
+    
+                a {
+                    padding: 11px 18px;
+                    font-size: 0.75rem;
+                }
+            }
+        }
+
+    }
+    
+    @media (max-width: 500px) {
+        width: 85%;
+        flex-direction: column;
+        gap: 40px;
+        .leftDiv {
+            text-align: center;
+            max-width: 95%;
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            > p {
+                font-size: 1rem;
+            }
+
+            ul {
+                li {
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    svg {
+
+                    }
+                }
+            }
+        }
+        
+        .rightDiv {
+            max-width: 85%;
+            header {
+
+                h2 {
+                    font-size: 1.75rem;
+                }
+
+                h3 {
+                    font-size: 1rem;
+                }
+
+            }
+            .priceDiv {
+                p {
+
+                }
+
+                h2 {
+                    font-size: 1.75rem;
+
+                    span {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .bottomDiv {
+                p {
+    
+                }
+    
+                a {
+                    padding: 9px 15px;
+                    font-size: 0.65rem;
+                }
+            }
+        }
+
+    }
+
+    @media (max-width: 500px) {
+        width: 90%;
+        flex-direction: column;
+        gap: 40px;
+        .leftDiv {
+            text-align: center;
+            max-width: 95%;
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            > p {
+                font-size: 1rem;
+            }
+
+            ul {
+                li {
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    svg {
+
+                    }
+                }
+            }
+        }
+        
+        .rightDiv {
+            max-width: 90%;
+            header {
+
+                h2 {
+                    font-size: 1.75rem;
+                }
+
+                h3 {
+                    font-size: 1rem;
+                }
+
+            }
+            .priceDiv {
+                p {
+
+                }
+
+                h2 {
+                    font-size: 1.75rem;
+
+                    span {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .bottomDiv {
+                p {
+    
+                }
+    
+                a {
+                    padding: 9px 15px;
+                    font-size: 0.65rem;
+                }
+            }
+        }
+
     }
 `

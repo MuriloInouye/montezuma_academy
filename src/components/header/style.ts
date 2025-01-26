@@ -9,6 +9,7 @@ export const Container = styled.header `
     width: 1300px;
     height: 80px;
     max-width: 100%;
+    padding: 0 20px;
     margin: 0 auto;
 
     display: flex;
@@ -19,6 +20,12 @@ export const Container = styled.header `
     nav {
         display: flex;
         gap: 20px;
+
+        @media (max-width: 850px) {
+            .anchors {
+                display: none;
+            }
+        }
 
         a {
             text-decoration: none;

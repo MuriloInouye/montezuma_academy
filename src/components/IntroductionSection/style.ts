@@ -8,7 +8,7 @@ export const ContainerColor = styled.div`
 
 export const Container = styled.div`
     width: 1300px;
-    max-width: 100%;
+    max-width: 95%;
     padding: 100px 0 200px;
     margin: 0 auto;
 
@@ -17,8 +17,9 @@ export const Container = styled.div`
     align-items: center;
     gap: 40px;
 
+    
     h1 {
-
+        
         text-align: center;
         color: var(--color-white);
         font-size: 3.5rem;
@@ -26,23 +27,56 @@ export const Container = styled.div`
         letter-spacing: 1.3px;
         line-height: 3.5rem;
     }
-
+    
     .line {
         width: 150px;
         content: "";
         border: 1px solid var(--color-black);
     }
-
-    p {
+    
+    > p {
+        max-width: 60%;
         text-align: center;
         font-weight: 300;
         font-size: 1.25rem;
-
+        
         color: var(--color-white);
     }
 
+    @media (max-width: 540px) {
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    
+    }
+    @media (max-width: 470px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 0.75rem
+        }
+    }
+
+    @media (max-width: 400px) {
+        h1 {
+            font-size: 2.25rem;
+        }
+
+        p {
+            font-size: 0.65rem
+        }
+    }
+
+
     .info {
         padding: 7px 20px;
+        /* max-width: 95%; */
 
         border-radius: 4px;
         background-color: var(--color-grey-main);
@@ -53,6 +87,7 @@ export const Container = styled.div`
             justify-content: space-between;
 
             li {
+                width: 33%;
                 padding: 4px 15px;
                 display: flex;
                 align-items: center;
@@ -62,11 +97,8 @@ export const Container = styled.div`
 
                 img, svg {
                     color: var(--color-white);
-                    font-size: 25px;
-                    width: 25px;
-                    height: 25px;
                 }
-
+                
                 h2 {
                     color: var(--color-white);
                     font-size: 1rem;
@@ -74,16 +106,67 @@ export const Container = styled.div`
                 }
                 
                 p {
+                    width: 100%;
                     font-size: 0.85rem;
                     font-weight: 100;
                     text-align: left;
+                    color: var(--color-white);
                 }
             }
-
+            
             #middle {
                 border-right: 1px solid var(--color-white);
                 border-left: 1px solid var(--color-white);
+                
             }
+        }
+
+        @media (max-width: 740px) {
+            ul {
+                li {
+                    h2 {
+                        font-size: 0.85rem;
+                    }
+
+                    p {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+        @media (max-width: 450px) {
+            ul {
+                li {
+                    h2 {
+                        font-size: 0.75rem;
+                    }
+
+                    p {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 400px) {
+            ul {
+                li {
+                    h2 {
+                        font-size: 0.60rem;
+                    }
+
+                    p {
+                        font-size: 0.45rem;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        .info {
+            padding: 7px 0px;
+
         }
     }
 
