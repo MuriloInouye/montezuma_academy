@@ -10,7 +10,7 @@ import { IoCheckmarkOutline } from "react-icons/io5"
 
 export const SellingSection = () => {
     return (
-        <ContainerColor id="SellingSection">
+        <ContainerColor id="Promocao">
             <Container>
                 <MainContentDiv>
                     <div className="leftDiv">
@@ -38,7 +38,7 @@ export const SellingSection = () => {
                         </header>
                         <div className="priceDiv">
                             <p>3x de</p>
-                            <h2>R$ <span>400</span>,00</h2>
+                            <h2>R$ <span>399</span>,99</h2>
                             <p>ou R$: 999,00 à vista</p>
                         </div>
                         <div className="bottomDiv">
@@ -46,7 +46,7 @@ export const SellingSection = () => {
                                 Na compra de uma mentoria, <br />
                                 inscreva mais uma pessoa sem custo <br /> adicional
                             </p>
-                            <a href="">Quero transformar meu negócio</a>
+                            <a href="https://w.app/1in2bf" target="_blank">Quero transformar meu negócio</a>
                         </div>
                     </div>
                 </MainContentDiv>

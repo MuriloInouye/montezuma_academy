@@ -7,7 +7,7 @@ import Image from "next/image"
 
 export const AboutMentor = () => {
     return (
-        <ContainerColor id="AboutMentor">
+        <ContainerColor id="SobreOMentor">
             <Container>
                 <div className="presentantionDiv">
                     <h2 className="name">Rodrigo Montezuma</h2>

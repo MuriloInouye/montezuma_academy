@@ -11,7 +11,7 @@ import Logo from "../logo"
 
 export const EncountersInfos = () => {
     return (
-        <ContainerColor id="EncountersInfos">
+        <ContainerColor id="Encontros">
             <Container>
                 <h1>6 Encontros</h1>
                 <MainContentContainer>
@@ -86,7 +86,7 @@ export const EncountersInfos = () => {
                     <div className="contactDiv">
                         <p>Alguma dúvida ?<br />Entre em contato conosco</p>
                         <div className="icons">
-                            <a href="https://w.app/rhtozl" target="_blank">
+                            <a href="https://w.app/1in2bf" target="_blank">
                                 <IoLogoWhatsapp />
                             </a>
                             <a href="mailto:rodrigo@montezumaacademy.com.br">
