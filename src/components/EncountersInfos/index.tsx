@@ -24,7 +24,7 @@ export const EncountersInfos = () => {
                             <li>
                                 <div className="left">
                                     <p className="numerated">01</p>
-                                    <p className="title">Parametrização do ERP Omie</p>
+                                    <p className="title">Parametrização e Utilização do ERP</p>
                                 </div>
                                 <button>
                                     {/* <FaArrowRight /> */}
@@ -34,7 +34,7 @@ export const EncountersInfos = () => {
                             <li>
                                 <div className="left">
                                     <p className="numerated">02</p>
-                                    <p className="title">Utilização do ERP</p>
+                                    <p className="title">Preparar e Analisar DFC</p>
                                 </div>
                                 <button>
                                     {/* <FaArrowRight /> */}
@@ -44,7 +44,7 @@ export const EncountersInfos = () => {
                             <li>
                                 <div className="left">
                                     <p className="numerated">03</p>
-                                    <p className="title">Preparar e Analisar a DFC</p>
+                                    <p className="title">Preparar e Analisar DRE</p>
                                 </div>
                                 <button>
                                     {/* <FaArrowRight /> */}
@@ -54,16 +54,6 @@ export const EncountersInfos = () => {
                             <li>
                                 <div className="left">
                                     <p className="numerated">04</p>
-                                    <p className="title">Preparar e Analisar a DRE</p>
-                                </div>
-                                <button>
-                                    {/* <FaArrowRight /> */}
-                                    {/* <FaArrowDown /> */}
-                                </button>
-                            </li>
-                            <li>
-                                <div className="left">
-                                    <p className="numerated">05</p>
                                     <p className="title">Planejamento Financeiro</p>
                                 </div>
                                 <button>
@@ -73,8 +63,18 @@ export const EncountersInfos = () => {
                             </li>
                             <li>
                                 <div className="left">
+                                    <p className="numerated">05</p>
+                                    <p className="title">Como Apresentar Resultados</p>
+                                </div>
+                                <button>
+                                    {/* <FaArrowRight /> */}
+                                    {/* <FaArrowDown /> */}
+                                </button>
+                            </li>
+                            <li>
+                                <div className="left">
                                     <p className="numerated">06</p>
-                                    <p className="title">Apresentar Resultados</p>
+                                    <p className="title">Planejamento Estratégico - OKR</p>
                                 </div>
                                 <button>
                                     {/* <FaArrowRight /> */}
@@ -86,10 +86,10 @@ export const EncountersInfos = () => {
                     <div className="contactDiv">
                         <p>Alguma dúvida ?<br />Entre em contato conosco</p>
                         <div className="icons">
-                            <a href="">
+                            <a href="https://w.app/rhtozl" target="_blank">
                                 <IoLogoWhatsapp />
                             </a>
-                            <a href="">
+                            <a href="mailto:rodrigo@montezumaacademy.com.br">
                                 <IoIosMail id="mail"/>
                             </a>
                         </div>
