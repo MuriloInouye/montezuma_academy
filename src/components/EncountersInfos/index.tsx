@@ -86,7 +86,7 @@ export const EncountersInfos = () => {
                     <div className="contactDiv">
                         <p>Alguma dúvida ?<br />Entre em contato conosco</p>
                         <div className="icons">
-                            <a href="https://w.app/1in2bf" target="_blank">
+                            <a href="https://wa.me/5511979631601?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Montezuma%20Academy%20e%20tenho%20interesse%20na%20mentoria!" target="_blank">
                                 <IoLogoWhatsapp />
                             </a>
                             <a href="mailto:rodrigo@montezumaacademy.com.br">
