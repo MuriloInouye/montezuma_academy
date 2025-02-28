@@ -15,7 +15,7 @@ export const SellingSection = () => {
                 <MainContentDiv>
                     <div className="leftDiv">
                         <h2>MONTEZUMA <br />ACADEMY</h2>
-                        <p>Próxima turma <br />27 de Fevereiro</p>
+                        <p>Próxima turma <br />09 de Abril</p>
                         <ul>
                             <li>
                                 <IoCheckmarkOutline />
