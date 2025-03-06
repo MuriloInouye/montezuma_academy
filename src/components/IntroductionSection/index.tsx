@@ -19,7 +19,7 @@ export const Introductionsection = () => {
                             <BsCalendar4Event style={{ width: '25px', height: '25px' }}/>
                             <div className="liInfo">
                                 <h2>Próxima turma</h2>
-                                <p>09 de Abril</p>
+                                <p>27 de Fevereiro</p>
                             </div>
                         </li>
                         <div className="infoLine"/>
