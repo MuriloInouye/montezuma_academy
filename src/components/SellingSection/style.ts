@@ -36,6 +36,11 @@ export const MainContentDiv = styled.div`
         flex-direction: column;
         gap: 20px;
 
+        img {
+            width: 162px;
+            height: 90px;
+        }
+
         h2 {
             font-size: 2rem;
             color: var(--color-white);

@@ -3,7 +3,7 @@ import styled, {css} from "styled-components"
 
 export const ContainerColor = styled.div`
     width: 100%;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(227,167,2,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, var(--color-yellow-main) 100%);
 `
 
 export const Container = styled.div`
