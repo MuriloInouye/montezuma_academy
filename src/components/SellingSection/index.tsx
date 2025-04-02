@@ -14,7 +14,7 @@ export const SellingSection = () => {
             <Container>
                 <MainContentDiv>
                     <div className="leftDiv">
-                        <h2>MONTEZUMA <br />ACADEMY</h2>
+                        <Logo color="2"/>
                         <p>Próxima turma <br />23 de Abril</p>
                         <ul>
                             <li>
@@ -28,6 +28,10 @@ export const SellingSection = () => {
                             <li>
                                 <IoCheckmarkOutline />
                                 <p>Troca de experiências</p>
+                            </li>
+                            <li>
+                                <IoCheckmarkOutline />
+                                <p>Acesso ao conteúdo por 12 meses</p>
                             </li>
                         </ul>
                     </div>

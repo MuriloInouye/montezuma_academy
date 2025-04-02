@@ -2,7 +2,7 @@ import styled, {css} from "styled-components"
 
 export const ContainerColor = styled.div`
     width: 100%;
-    background-color: var(--color-yellow-main);
+    background-color: var(--color-black);
 `
 
 export const Container = styled.header `
@@ -41,8 +41,8 @@ export const Container = styled.header `
             font-size: 1rem;
             padding: 4px 12px;
 
-            color: var(--color-black);
-            outline: 1px solid var(--color-black);
+            color: var(--color-white);
+            outline: 1px solid var(--color-white);
         }
     }
 `

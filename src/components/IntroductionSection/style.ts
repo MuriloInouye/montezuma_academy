@@ -3,13 +3,13 @@ import styled, {css} from "styled-components"
 
 export const ContainerColor = styled.div`
     width: 100%;
-    background: linear-gradient(180deg, rgba(227,167,2,1) 12%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, var(--color-yellow-main) 12%, rgba(0,0,0,1) 35%);
 `
 
 export const Container = styled.div`
     width: 1300px;
     max-width: 95%;
-    padding: 100px 0 200px;
+    padding: 100px 0 50px;
     margin: 0 auto;
 
     display: flex;
@@ -18,8 +18,8 @@ export const Container = styled.div`
     gap: 40px;
 
     
-    h1 {
-        
+    > h1 {
+        margin-top: 50px;
         text-align: center;
         color: var(--color-white);
         font-size: 3.5rem;
@@ -36,6 +36,7 @@ export const Container = styled.div`
     
     > p {
         max-width: 60%;
+        margin-bottom: 50px;
         text-align: center;
         font-weight: 300;
         font-size: 1.25rem;
@@ -44,7 +45,7 @@ export const Container = styled.div`
     }
 
     @media (max-width: 540px) {
-        h1 {
+        > h1 {
             font-size: 3rem;
         }
 
@@ -54,7 +55,7 @@ export const Container = styled.div`
     
     }
     @media (max-width: 470px) {
-        h1 {
+        > h1 {
             font-size: 2.5rem;
         }
 
@@ -64,7 +65,7 @@ export const Container = styled.div`
     }
 
     @media (max-width: 400px) {
-        h1 {
+        > h1 {
             font-size: 2.25rem;
         }
 
@@ -170,7 +171,7 @@ export const Container = styled.div`
         }
     }
 
-    a {
+    > a {
         margin-top: 10px;
         padding: 5px 32px;
 

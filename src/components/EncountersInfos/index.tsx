@@ -13,7 +13,7 @@ export const EncountersInfos = () => {
     return (
         <ContainerColor id="Encontros">
             <Container>
-                <h1>6 Encontros</h1>
+                <h1>Conteúdo</h1>
                 <MainContentContainer>
                     <div className="leftDiv">
                         <Logo color="3"/>
