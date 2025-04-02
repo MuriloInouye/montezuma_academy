@@ -46,7 +46,7 @@ export const SellingSection = () => {
                                 Na compra de uma mentoria, <br />
                                 inscreva mais uma pessoa sem custo <br /> adicional
                             </p>
-                            <a href="https://wa.me/5511979631601?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Montezuma%20Academy%20e%20tenho%20interesse%20na%20mentoria!" target="_blank">Quero transformar meu negócio</a>
+                            <a href="https://wa.me/5511985911590?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Montezuma%20Academy%20e%20tenho%20interesse%20na%20mentoria!" target="_blank">Quero transformar meu negócio</a>
                         </div>
                     </div>
                 </MainContentDiv>
