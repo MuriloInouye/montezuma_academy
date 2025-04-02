@@ -4,6 +4,7 @@ import { Container, ContainerColor } from "./style"
 import { BsCalendar4Event } from "react-icons/bs"
 import { FiClock } from "react-icons/fi";
 import { BsMicrosoftTeams } from "react-icons/bs";
+import { EncountersInfos } from "../EncountersInfos";
 
 
 export const Introductionsection = () => {
@@ -13,6 +14,7 @@ export const Introductionsection = () => {
                 <h1>MENTORIA<br/>CONTROLADORIA NA PRÁTICA</h1>
                 <div className="line"/>
                 <p>Saiba como implantar uma Controladoria e transformar a gestão financeira do seu negócio</p>
+                <EncountersInfos/>
                 <div className="info">
                     <ul>
                         <li>
@@ -35,7 +37,7 @@ export const Introductionsection = () => {
                             <BsMicrosoftTeams style={{ width: '25px', height: '25px' }}/>
                             <div className="liInfo">
                                 <h2>Plataforma</h2>
-                                <p>Microsoft Teams Online</p>
+                                <p>Encontros ao vivo e gravados, via Microsoft Teams</p>
                             </div>
                         </li>
                     </ul>

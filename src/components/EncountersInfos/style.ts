@@ -3,7 +3,6 @@ import styled, {css} from "styled-components"
 
 export const ContainerColor = styled.div`
     width: 100%;
-    background: var(--color-black);
 `
 
 export const Container = styled.div`
@@ -17,9 +16,10 @@ export const Container = styled.div`
     align-items: center;
     gap: 80px;
 
-    h1 {
+    > h1 {
         color: var(--color-yellow-main);
         font-size: 3rem;
+        font-weight: 400;
     }
     
 `

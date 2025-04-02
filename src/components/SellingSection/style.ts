@@ -8,7 +8,7 @@ export const ContainerColor = styled.div`
 export const Container = styled.div`
     width: 1300px;
     max-width: 100%;
-    padding: 200px 0 100px;
+    padding: 200px 0 200px;
     margin: 0 auto;
 
     display: flex;

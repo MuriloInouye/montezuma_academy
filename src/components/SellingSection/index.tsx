@@ -29,6 +29,10 @@ export const SellingSection = () => {
                                 <IoCheckmarkOutline />
                                 <p>Troca de experiências</p>
                             </li>
+                            <li>
+                                <IoCheckmarkOutline />
+                                <p>Acesso ao conteúdo por 12 meses</p>
+                            </li>
                         </ul>
                     </div>
                     <div className="rightDiv">

@@ -19,7 +19,7 @@ export default function Home() {
     <Container>
       <Header/>
       <Introductionsection/>
-      <EncountersInfos/>
+      {/* <EncountersInfos/> */}
       <AboutMentor/>
       <SellingSection/>
     </Container>
