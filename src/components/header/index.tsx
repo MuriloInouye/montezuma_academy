@@ -8,7 +8,7 @@ export const Header = () => {
             <Container>
                 <Logo color="2"/>
                 <nav>
-                    <a href="#Encontros" className="anchors">Encontros</a>
+                    <a href="#Encontros" className="anchors">Aulas</a>
                     <a href="#SobreOMentor" className="anchors">Sobre o mentor</a>
                     <a href="#Promocao" className="anchors">Promoção</a>
                     <a href="https://w.app/1in2bf" target="_blank" id="stripeRedirect">Quero Fazer Parte</a>

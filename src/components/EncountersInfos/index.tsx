@@ -54,7 +54,7 @@ export const EncountersInfos = () => {
                             <li>
                                 <div className="left">
                                     <p className="numerated">04</p>
-                                    <p className="title">Planejamento Financeiro</p>
+                                    <p className="title">Controle Orçamentário</p>
                                 </div>
                                 <button>
                                     {/* <FaArrowRight /> */}
@@ -74,7 +74,7 @@ export const EncountersInfos = () => {
                             <li>
                                 <div className="left">
                                     <p className="numerated">06</p>
-                                    <p className="title">Planejamento Estratégico - OKR</p>
+                                    <p className="title">Modelo de Gestão Estratégica - OKR</p>
                                 </div>
                                 <button>
                                     {/* <FaArrowRight /> */}

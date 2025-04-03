@@ -29,6 +29,7 @@ export const Introductionsection = () => {
                             <FiClock style={{ width: '40px', height: '40px' }}/>
                             <div className="liInfo">
                                 <h2>Duração</h2>
+                                <p>Carga horária total de 12 horas</p>
                                 <p>6 Encontros semanais com 2 horas cada.</p>
                             </div>
                         </li>
@@ -37,7 +38,7 @@ export const Introductionsection = () => {
                             <BsMicrosoftTeams style={{ width: '25px', height: '25px' }}/>
                             <div className="liInfo">
                                 <h2>Plataforma</h2>
-                                <p>Encontros ao vivo e gravados, via Microsoft Teams</p>
+                                <p>Aulas ao vivo e gravadas, via Microsoft Teams</p>
                             </div>
                         </li>
                     </ul>
