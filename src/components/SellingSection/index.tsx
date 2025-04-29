@@ -15,7 +15,7 @@ export const SellingSection = () => {
                 <MainContentDiv>
                     <div className="leftDiv">
                         <Logo color="2"/>
-                        <p>Próxima turma <br />23 de Abril</p>
+                        <p>Próxima turma <br />11 de Junho</p>
                         <ul>
                             <li>
                                 <IoCheckmarkOutline />
@@ -42,8 +42,8 @@ export const SellingSection = () => {
                         </header>
                         <div className="priceDiv">
                             <p>3x de</p>
-                            <h2>R$ <span>399</span>,99</h2>
-                            <p>ou R$: 999,00 à vista</p>
+                            <h2>R$ <span>450</span>,00</h2>
+                            <p>ou R$: 1149,00 à vista</p>
                         </div>
                         <div className="bottomDiv">
                             <p>
