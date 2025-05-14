@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Container, ContainerColor, MainContentDiv } from "./style"
 
 import { BsCalendar4Event } from "react-icons/bs"
@@ -9,6 +9,15 @@ import { IoCheckmarkOutline } from "react-icons/io5"
 
 
 export const SellingSection = () => {
+    const [paymentMethod, setPaymentMethod] = useState("avista");
+
+    const linkAvista = "https://www.asaas.com/c/fnsjdputrd1m5y4b";
+    const linkParcelado = "https://www.asaas.com/c/t9eyb8la77edcvhs";
+
+    const handlePaymentMethodChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setPaymentMethod(event.target.value);
+    };
+
     return (
         <ContainerColor id="Promocao">
             <Container>
@@ -41,16 +50,39 @@ export const SellingSection = () => {
                             <h3>Promoção especial!</h3>
                         </header>
                         <div className="priceDiv">
-                            <p>3x de</p>
-                            <h2>R$ <span>450</span>,00</h2>
-                            <p>ou R$: 1149,00 à vista</p>
+                            <p>10x de</p>
+                            <h2>R$ <span>139</span>,90</h2>
+                            <p>ou R$: 1.259,10 à vista</p>
+                            <p id="pixDiscount">(10% de desconto)</p>
                         </div>
                         <div className="bottomDiv">
+                            <div className="paymentOptions">
+                                <input
+                                    id="avista"
+                                    type="radio"
+                                    value="avista"
+                                    checked={paymentMethod === "avista"}
+                                    onChange={handlePaymentMethodChange}
+                                />
+                                <label htmlFor="avista">
+                                    À vista
+                                </label>
+                                <input
+                                    id="parcelado"
+                                    type="radio"
+                                    value="parcelado"
+                                    checked={paymentMethod === "parcelado"}
+                                    onChange={handlePaymentMethodChange}
+                                />
+                                <label htmlFor="parcelado">
+                                    Parcelado
+                                </label>
+                            </div>
                             <p>
                                 Na compra de uma mentoria, <br />
                                 inscreva mais uma pessoa sem custo <br /> adicional
                             </p>
-                            <a href="https://wa.me/5511985911590?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Montezuma%20Academy%20e%20tenho%20interesse%20na%20mentoria!" target="_blank">Quero transformar meu negócio</a>
+                            <a href={paymentMethod === "avista" ? linkAvista : linkParcelado} target="_blank">Quero transformar meu negócio</a>
                         </div>
                     </div>
                 </MainContentDiv>
