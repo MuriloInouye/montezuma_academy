@@ -52,8 +52,8 @@ export const SellingSection = () => {
                         <div className="priceDiv">
                             <p>10x de</p>
                             <h2>R$ <span>139</span>,90</h2>
-                            <p>ou R$: 1251,00 à vista</p>
-                            <p id="pixDiscount">(10% de desconto no pix)</p>
+                            <p>ou R$: 1.259,10 à vista</p>
+                            <p id="pixDiscount">(10% de desconto)</p>
                         </div>
                         <div className="bottomDiv">
                             <div className="paymentOptions">
