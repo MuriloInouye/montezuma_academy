@@ -100,6 +100,10 @@ export const MainContentDiv = styled.div`
             p {
                 color: var(--color-grey-light);
             }
+            #pixDiscount {
+                font-size: 0.75rem;
+                color: var(--color-grey-light);
+            }
             h2 {
                 font-weight: 400;
                 font-size: 2.5rem;
@@ -135,6 +139,34 @@ export const MainContentDiv = styled.div`
                 border-radius: 30px;
             }
         }
+    }
+
+    .paymentOptions {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 15px; 
+
+        input[type="radio"] {
+            display: none; // Hide the actual radio button
+        }
+
+        label {
+            padding: 7px 15px;
+            border: 1px solid var(--color-yellow-main);
+            border-radius: 20px;
+            color: var(--color-white);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        input[type="radio"]:checked + label {
+            background-color: var(--color-yellow-main);
+            color: var(--color-black);
+            font-weight: bold;
+            padding: 7px 13px;
+        } 
     }
 
     @media (max-width: 1400px) {
@@ -204,6 +236,10 @@ export const MainContentDiv = styled.div`
 
             }
             .priceDiv {
+                #pixDiscount {
+                    font-size: 0.35rem;
+                }
+                
                 p {
 
                 }
@@ -215,6 +251,7 @@ export const MainContentDiv = styled.div`
                         font-size: 2.75rem;
                     }
                 }
+
             }
             .bottomDiv {
                 p {
