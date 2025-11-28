@@ -23,7 +23,7 @@ export const EncountersInfos = () => {
                         <ul>
                             <li>
                                 <div className="left">
-                                    <p className="numerated">01</p>
+                                    <p className="numerated">25/02</p>
                                     <p className="title">Parametrização e Utilização do ERP</p>
                                 </div>
                                 <button>
@@ -33,7 +33,7 @@ export const EncountersInfos = () => {
                             </li>
                             <li>
                                 <div className="left">
-                                    <p className="numerated">02</p>
+                                    <p className="numerated">04/03</p>
                                     <p className="title">Preparar e Analisar DFC</p>
                                 </div>
                                 <button>
@@ -43,7 +43,7 @@ export const EncountersInfos = () => {
                             </li>
                             <li>
                                 <div className="left">
-                                    <p className="numerated">03</p>
+                                    <p className="numerated">11/03</p>
                                     <p className="title">Preparar e Analisar DRE</p>
                                 </div>
                                 <button>
@@ -53,7 +53,7 @@ export const EncountersInfos = () => {
                             </li>
                             <li>
                                 <div className="left">
-                                    <p className="numerated">04</p>
+                                    <p className="numerated">18/03</p>
                                     <p className="title">Controle Orçamentário</p>
                                 </div>
                                 <button>
@@ -63,7 +63,7 @@ export const EncountersInfos = () => {
                             </li>
                             <li>
                                 <div className="left">
-                                    <p className="numerated">05</p>
+                                    <p className="numerated">25/03</p>
                                     <p className="title">Como Apresentar Resultados</p>
                                 </div>
                                 <button>
@@ -73,7 +73,7 @@ export const EncountersInfos = () => {
                             </li>
                             <li>
                                 <div className="left">
-                                    <p className="numerated">06</p>
+                                    <p className="numerated">01/04</p>
                                     <p className="title">Modelo de Gestão Estratégica - OKR</p>
                                 </div>
                                 <button>
