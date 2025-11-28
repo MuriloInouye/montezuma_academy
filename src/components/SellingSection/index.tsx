@@ -24,7 +24,7 @@ export const SellingSection = () => {
                 <MainContentDiv>
                     <div className="leftDiv">
                         <Logo color="2"/>
-                        <p>Próxima turma <br />29 de Outubro</p>
+                        <p>Próxima turma <br />25 de Fevereiro</p>
                         <ul>
                             <li>
                                 <IoCheckmarkOutline />
